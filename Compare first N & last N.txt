@@ -1,0 +1,5 @@
+s=input()
+n=int(input())
+first=s[:n]
+last=s[-n:]
+print(first!=last)
