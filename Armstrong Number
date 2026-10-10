@@ -1,0 +1,8 @@
+n=(input())
+a=int(n[0])
+b=int(n[1])
+c=int(n[2])
+if (a**3+ b**3+c**3)==int(n):
+    print("True")
+else:
+    print("False")
