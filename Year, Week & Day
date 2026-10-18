@@ -1,0 +1,8 @@
+n=int(input())
+years=n//365
+rem=n%365
+weak=rem//7
+day=rem%7
+print(years)
+print(weak)
+print(day)
