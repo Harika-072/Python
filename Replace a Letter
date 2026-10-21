@@ -1,0 +1,5 @@
+a=input()
+n=int(input())
+b=input()
+c=a[0:n]+b+a[n+1:]
+print(c)
