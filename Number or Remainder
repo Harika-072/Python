@@ -1,0 +1,8 @@
+n=int(input())
+a=(n%5==0) and (n%7==0)
+b=n<7
+if a or b:
+    print(n)
+else:
+   print(n%5)
+   print(n%7)
