@@ -1,0 +1,12 @@
+x=int(input())
+bill =0
+if x<=50:
+    bill=x*2
+elif x<=150:
+    bill=(50*2)+((x-50)*3)
+elif x<=250:
+    bill=(50*2)+(100*3)+((x-150)*5)
+else:
+    bill=(50*2)+(100*3)+(100*5)+((x-250)*8)
+total_bill=bill+(bill*0.20)
+print(float(total_bill))
