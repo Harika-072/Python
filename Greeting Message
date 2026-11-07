@@ -1,0 +1,9 @@
+time=int(input())
+if 4<=time<12:
+    print("Good Morning")
+elif 12<=time<16:
+    print("Good Afternoon")
+elif 16<=time<20:
+    print("Good Evening")
+else:
+    print("Good Night")
